@@ -1,0 +1,195 @@
+html, body
+{
+
+   margin: 0px;
+   padding: 0px;
+
+}
+
+
+.loginCore
+{
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.loginContainer
+{
+
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+
+}
+
+
+.loginForm
+{
+
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+
+}
+
+
+.loginForm form
+{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#notification
+{
+
+   text-align: left;
+   font-size: 17px;
+   margin-bottom: 10px;
+   opacity: 0;
+
+}
+
+
+.loginForm form input
+{
+
+   width: 70%;
+   height: 35px;
+   border: 1px solid /*#E4022E;*//*#086A92;*//*#5e0231;*/#00A7F6;
+   border-radius: 2px;
+   font-size: 17px;
+   padding-left: 15px;
+   margin-top: 10px;
+   color: #06000a;
+
+}
+
+
+.loginData
+{
+
+  transform: scale(0,0);
+
+}
+
+
+#login, #resetPass
+{
+
+  width: 72%;
+  cursor: pointer;
+  background-color: /*#E4022E;*//*#086A92;*//*#5e0231;*/#00A7F6;
+  color: white;
+  height: 40px;
+  font-size: 20px;
+
+}
+
+
+#login
+{
+
+   opacity: 0;
+
+}
+
+
+#login:hover, #resetPass:hover
+{
+
+  background-color: white;
+  color: #00A7F6;
+
+}
+
+
+#forgotPass
+{
+
+   font-size: 17px;
+   color: #E4022E;
+   cursor: pointer;
+   opacity: 0;
+
+}
+
+
+.blogImg
+{
+
+   width: 50%;
+   height: 100%;
+   overflow: hidden;
+
+}
+
+
+.blogImg img
+{
+
+   width: 100%;
+   height: 100%;
+   position: relative;
+   left: 900px;
+
+}
+
+
+.logoContainer
+{
+
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   height: auto;
+
+}
+
+
+.logoContainer img
+{
+
+   width:150px;
+   height:150px;
+   border: 1px solid green;
+   border-radius: 100%;
+   background-color: green;
+   transform: scale(0,0);
+   position: relative;
+
+}
+
+
+.logoContainer h2
+{
+
+   color: #06000a;
+   text-align: left;
+   transform: scale(0,0);
+   position: relative;
+
+}

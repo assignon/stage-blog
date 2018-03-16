@@ -1,0 +1,186 @@
+/************************* blog temp style******************************************/
+.content
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   position: absolute;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.content .blogContainer
+{
+
+   width: 300px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 70px;
+   margin-left: 20px;
+   margin-right: 20px;
+   /*border: 1px solid #040B27;*/
+   border-radius: 3px;
+   cursor: pointer;
+
+}
+
+
+.content .blogContainer:hover .blogImge
+{
+
+    -webkit-transition: transform 0.5 ease-out 2s;
+    transition: transform 0.5 ease-out 2s;
+    transform: scale(1.3,1.3);
+
+}
+
+
+.content .blogContainer .blogImageCont
+{
+
+   text-decoration: none;
+   width: 300px;
+   height: 200px;
+   overflow: hidden;
+
+}
+
+
+.content .blogContainer .blogImageCont img
+{
+
+   width: 100%;
+   max-width: 100%;
+   height: 200px;
+   border-radius: 3px 3px 0px 0px
+
+}
+
+
+.blogFooter
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #040B27;
+   border-radius: 0px 0px 3px 3px;
+
+}
+
+
+.blogNameCont
+{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: auto;
+
+}
+
+
+.blogNameCont hr
+{
+
+  width: 50px;
+  border: 0.7px solid white
+
+}
+
+
+.blogNameCont p
+{
+
+   margin-left: 0px;
+   color: white;
+   font-size: 15px;
+   width: auto;
+
+}
+
+.blogNameCont img
+{
+
+   width: 13px;
+   height: 13px;
+   margin-left: 5px;
+
+}
+
+
+.blogNameCont span
+{
+
+   margin-left: 5px;
+   width: 6px;
+   height: 6px;
+   border-radius: 100%;
+   margin-right: 0px;
+
+}
+
+
+.toolsCont
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+}
+
+
+.toolsCont p
+{
+
+   color: white;
+   font-size: 10px;
+
+}
+
+.toolsCont img
+{
+
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+   position: relative;
+   bottom: 5px;
+   margin-left: 10px;
+   margin-right: 10px
+
+}
+
+
+.toolsCont img:hover
+{
+
+   transform: scale(1.1,1.1);
+
+}
+
+.publishCurBlog
+{
+
+   width: 25px;
+   height: 25px;
+
+}

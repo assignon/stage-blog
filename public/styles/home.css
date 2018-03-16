@@ -1,0 +1,159 @@
+html, body
+{
+
+   padding: 0px;
+   margin: 0px;
+   overflow-x: hidden;
+   font-family: 'Raleway', sans-serif;
+
+}
+
+.homelink
+{
+
+   transform: scale(1.3,1.3);
+
+}
+
+.pageFront
+{
+
+   position: absolute;
+
+}
+
+
+.homeCore
+{
+
+   width: 100%;
+   height: auto;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow-x: hidden;
+
+}
+
+
+.homeContainer
+{
+
+   position: absolute;
+   width: 100%;
+   height: auto;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+
+}
+
+
+.bannerMenu
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.banner
+{
+
+   width: 100%;
+   height: 250px;
+   background-image: url(../media/redbutton1.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+
+.homeAnimation
+{
+
+
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: /*870E45*/#040B27;
+  opacity: 0;
+  display: none;
+
+}
+
+
+.homeAnimation .header, .homeAnimation .body
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-content: flex-end;
+
+}
+
+
+.homeAnimation .header h4
+{
+
+   color: white;
+   text-align: center;
+   position: relative;
+   top: 50px;
+   left: 200px;
+   opacity: 0;
+   z-index: 0;
+}
+
+
+.homeAnimation .header img
+{
+
+   width: 200px;
+   height: 200px;
+   margin-left: 30px;
+   z-index: 1;
+   transform: scale(0,0);
+   position: relative;
+
+}
+
+
+.homeAnimation .body h1
+{
+
+   color: white;
+   margin-left: 5px;
+   margin-right: 5px;
+   transform: scale(0,0);
+
+}
+
+
+.blogContent
+{
+
+  width: 100%;
+  height: auto;
+  min-height: 50vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
